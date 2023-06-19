@@ -1,0 +1,3 @@
+tags: ['pages']
+layout: 'base.njk.html'
+permalink: '/{{ settings.labels[label] | slugify }}/index.html'

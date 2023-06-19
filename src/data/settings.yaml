@@ -1,0 +1,6 @@
+name: "nom du site"
+lang: "fr"
+labels: 
+  home: "Accueil"
+  about: "Infos"
+  posts: Projets
