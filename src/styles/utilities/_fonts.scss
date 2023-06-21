@@ -1,0 +1,7 @@
+@use'../variables' as *;
+
+@each $name,$_ in $fonts{
+  .font-#{$name}{
+    font-family:var(--font-#{$name});
+  }
+}

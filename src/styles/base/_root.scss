@@ -1,0 +1,16 @@
+@use '../variables' as *;
+
+:root{
+  @each $name, $value in $colors{
+    --clr-#{$name}: #{$value};
+  }
+  @each $name,$value in $fonts{
+    --font-#{$name}: #{$value};
+  }
+  @each $name, $value in $fontsizes{
+    --fs-#{$name}:#{$value};
+  }
+  @each $name, $value in $spaces{
+    --#{$name}:#{$value};
+  }
+}

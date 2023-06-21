@@ -1,0 +1,29 @@
+@forward 'root';
+@forward 'reset';
+
+body{
+  font-family: var(--font-sans);
+  background: var(--clr-surface-1);
+  color:var(--clr-text-1);
+  font-size:var(--fs-0);
+  line-height:1.7;
+}
+
+h1,h2,h3{
+  font-weight:800;
+  line-height:1.2;
+  font-family:var(--font-serif);
+}
+
+h4{
+  font-size:var(--fs-1);
+}
+h3{
+  font-size:var(--fs-2);
+}
+h2{
+  font-size:var(--fs-3);
+}
+h1{
+  font-size:var(--fs-4);
+}

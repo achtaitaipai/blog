@@ -1,5 +1,2 @@
-@use '_hello';
-$clr:lime;
-body {
-  color: $clr;
-}
+@use 'base';
+@use 'utilities';
