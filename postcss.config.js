@@ -1,5 +1,6 @@
-const atImport = require('postcss-import')
 const autoprefixer = require('autoprefixer')
+const sass = require('@csstools/postcss-sass')
+
 module.exports = {
-  plugins: [autoprefixer(), atImport()],
+  plugins: [sass(), autoprefixer()],
 }
