@@ -1,56 +1,59 @@
 @use '../variables' as *;
 
-@each $name, $_ in $spaces{
-  .m-#{$name}{
-    margin:var(--#{$name});
+@each $name, $_ in $spaces {
+  .m-#{$name} {
+    margin: var(--#{$name});
   }
-  .p-#{$name}{
-    padding:var(--#{$name});
+  .p-#{$name} {
+    padding: var(--#{$name});
   }
-  .mx-#{$name}{
-    margin-inline:var(--#{$name});
+  .mx-#{$name} {
+    margin-inline: var(--#{$name});
   }
-  .px-#{$name}{
-    padding-inline:var(--#{$name});
+  .px-#{$name} {
+    padding-inline: var(--#{$name});
   }
-  .my-#{$name}{
-    margin-block:var(--#{$name});
+  .my-#{$name} {
+    margin-block: var(--#{$name});
   }
-  .py-#{$name}{
-    padding-block:var(--#{$name});
+  .py-#{$name} {
+    padding-block: var(--#{$name});
   }
-  .mt-#{$name}{
-    margin-block-start:var(--#{$name});
+  .mt-#{$name} {
+    margin-block-start: var(--#{$name});
   }
-  .pt-#{$name}{
-    padding-block-start:var(--#{$name});
+  .pt-#{$name} {
+    padding-block-start: var(--#{$name});
   }
-  .mb-#{$name}{
-    margin-block-end:var(--#{$name});
+  .mb-#{$name} {
+    margin-block-end: var(--#{$name});
   }
-  .pb-#{$name}{
-    padding-block-end:var(--#{$name});
+  .pb-#{$name} {
+    padding-block-end: var(--#{$name});
   }
-  .ml-#{$name}{
-    margin-inline-start:var(--#{$name});
+  .ml-#{$name} {
+    margin-inline-start: var(--#{$name});
   }
-  .pl-#{$name}{
-    padding-inline-start:var(--#{$name});
+  .pl-#{$name} {
+    padding-inline-start: var(--#{$name});
   }
-  .mr-#{$name}{
-    margin-inline-end:var(--#{$name});
+  .mr-#{$name} {
+    margin-inline-end: var(--#{$name});
   }
-  .pr-#{$name}{
-    padding-inline-end:var(--#{$name});
+  .pr-#{$name} {
+    padding-inline-end: var(--#{$name});
   }
-  .gap-#{$name}{
-    gap:var(--#{$name});
+  .gap-#{$name} {
+    gap: var(--#{$name});
   }
-  .gapx-#{$name}{
-    column-gap:var(--#{$name});
+  .gapx-#{$name} {
+    column-gap: var(--#{$name});
   }
-  .gapy-#{$name}{
-    row-gap:var(--#{$name});
+  .gapy-#{$name} {
+    row-gap: var(--#{$name});
   }
 }
 
+.mx-auto {
+  margin-inline: auto;
+}

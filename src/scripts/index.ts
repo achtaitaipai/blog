@@ -1,3 +1,3 @@
 import { hello } from './hello'
 
-hello('stp') 
+hello('stp')

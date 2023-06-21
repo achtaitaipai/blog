@@ -2,7 +2,6 @@ const yaml = require('js-yaml')
 
 /** @param {import("@11ty/eleventy").UserConfig} config */
 module.exports = config => {
-
   config.setUseGitIgnore(false)
   config.addWatchTarget('./_build/')
   config.addPassthroughCopy({ '_build/*': '/' })

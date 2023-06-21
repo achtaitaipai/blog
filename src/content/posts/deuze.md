@@ -1,5 +1,4 @@
 ---
-tags: projects
 title: 'deuze'
 ---
 

@@ -1,16 +1,17 @@
 @use '../variables' as *;
 
-:root{
-  @each $name, $value in $colors{
+:root {
+  --main-size: clamp(20rem, 90vw, 70rem);
+  @each $name, $value in $colors {
     --clr-#{$name}: #{$value};
   }
-  @each $name,$value in $fonts{
+  @each $name, $value in $fonts {
     --font-#{$name}: #{$value};
   }
-  @each $name, $value in $fontsizes{
-    --fs-#{$name}:#{$value};
+  @each $name, $value in $fontsizes {
+    --fs-#{$name}: #{$value};
   }
-  @each $name, $value in $spaces{
-    --#{$name}:#{$value};
+  @each $name, $value in $spaces {
+    --#{$name}: #{$value};
   }
 }
